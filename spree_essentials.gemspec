@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.name        = "spree_essentials"
   s.version     = SpreeEssentials::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Spencer Steffen"]
-  s.email       = ["spencer@citrusme.com"]
-  s.homepage    = "https://github.com/citrus/spree_essentials"
+  s.authors     = ["Fetisov Alexey"]
+  s.email       = ["afetisov87@gmail.com"]
+  s.homepage    = "https://github.com/sov-87/spree_essentials"
   s.summary     = %q{Spree Essentials provides a base for several other Spree Commerce extensions. See readme for details...}
   s.description = %q{Spree Essentials provides a base for several other Spree Commerce extensions. The idea is to provide other extensions with common functionality such as an asset-upload interface, a markdown editor, and a common admin-navigation tab.}
 
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency('spree_core',  '~> 1.1.0')
+  s.add_runtime_dependency('spree_core',  '~> 2.0.0')
   s.add_runtime_dependency('rdiscount',   '~> 1.6.8')
 
   s.add_development_dependency('shoulda',      '~> 3.0.0')
